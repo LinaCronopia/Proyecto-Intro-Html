@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightsteelblue;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 1000;
+} 
+
+.parrafo-destacado{
+    color:rgb(18, 18, 99);
+    font-size: 30px;
+}
+
+strong{
+    color:rgb(20, 73, 73);
+    font-size: 30px;
+}
+
+p strong{               /*selector descendente*/
+    font-size: 20px;
+}
+
+.parrafo-destacado em{
+    text-transform: uppercase;
+}
+
+.oculto{
+    display: none;
+}
+
+
+.contenedor01{
+    width: 90vw;
+    background-color: aquamarine;
+    padding: 20px;
+    border: solid 5px rgb(2, 22, 58);
+    margin: auto;
+}
+
+.contenedor02{
+    width: 60vw;
+    background-color: rgb(8, 114, 79);
+    padding: 10px;
+    border: solid 5px rgb(48, 82, 145);
+    margin: auto;
+}
+
+@media (min-width: 576px){
+    .contenedor01{
+        background-color: rgb(4, 77, 52);
+        color: whitesmoke;
+    }
+
+    .oculto{
+        display: block;
+    }
+
+}
+
+
+
+
